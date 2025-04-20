@@ -11,7 +11,7 @@ from matplotlib.pyplot import figure
 
 data_path = os.path.join(str(Path.home()), 'PycharmProjects/ML/src/adult/')
 
-df = pd.read_csv(os.path.join(data_path, "adult.data"))
+df = pd.read_csv(os.path.join(data_path, "adult_b.data"))
 
 # Назначаем имена колонок от поставщика данных
 columns = ('age workclass fnlwgt education educ-num marital-status occupation relationship '
