@@ -8,6 +8,15 @@ from matplotlib import pyplot as plt
 
 from matplotlib.pyplot import figure
 
+# Create single ceil value
+arr = np.array([7.8])
+print("Original array:", arr)
+
+# Use numpy.ceil() function
+# Create single element array
+arr1 = np.ceil(arr)
+print("Ceil value:", arr1)
+
 
 data_path = os.path.join(str(Path.home()), 'PycharmProjects/ML/src/adult/')
 
